@@ -2,7 +2,6 @@
 
 const nextConfig = {
   swcMinify: true,
-  basePath: "/",
   reactStrictMode: true,
   output: "export",
   distDir: "build",
