@@ -39,7 +39,7 @@ export function Headline() {
       </div>
 
       <Image
-        src="/arrow-down.svg"
+        src="/arrow-bottom.svg"
         alt="Headline"
         width={52}
         height={26}
