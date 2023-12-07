@@ -7,7 +7,7 @@ export function About() {
       <div className="md:w-full w-full max-w-[1360px] md:h-[540px] h-full bg-secondary/75 rounded-md flex flex-col md:flex-row items-center justify-between p-3">
         <div className="mb-5 md:mb-0 md:mr-5">
           <Image
-            src="${basePath}/innovation.svg"
+            src="/innovation.svg"
             alt="profile"
             width={400}
             height={400}
@@ -18,32 +18,22 @@ export function About() {
         <div>
           <div className="flex flex-wrap gap-4">
             <Image
-              src="${basePath}/icons/JavaScript.svg"
+              src="/icons/JavaScript.svg"
               alt="JavaScript"
               width={40}
               height={40}
             />
 
-            <Image
-              src="${basePath}/icons/React.svg"
-              alt="React"
-              width={40}
-              height={40}
-            />
+            <Image src="/icons/React.svg" alt="React" width={40} height={40} />
 
             <Image
-              src="${basePath}/icons/Tailwind.svg"
+              src="/icons/Tailwind.svg"
               alt="Next"
               width={40}
               height={40}
             />
 
-            <Image
-              src="${basePath}/icons/Node.js.svg"
-              alt="Next"
-              width={40}
-              height={40}
-            />
+            <Image src="/icons/Node.js.svg" alt="Next" width={40} height={40} />
           </div>
 
           <div className="mt-5 md:w-[592px]">

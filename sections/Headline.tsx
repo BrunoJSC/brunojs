@@ -35,16 +35,11 @@ export function Headline() {
         </div>
       </div>
       <div className="w-full lg:w-[488px] md:h-[417px] h-full mt-4 lg:mt-0 order-first lg:order-last">
-        <Image
-          src="${basePath}/typing.svg"
-          alt="Headline"
-          width={592}
-          height={286}
-        />
+        <Image src="/typing.svg" alt="Headline" width={592} height={286} />
       </div>
 
       <Image
-        src="${basePath}/arrow-bottom.svg"
+        src="../../public/arrow-down.svg"
         alt="Headline"
         width={52}
         height={26}
