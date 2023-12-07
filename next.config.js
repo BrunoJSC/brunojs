@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  basePath: "/brunojsc.github.io/brunojs",
+  swcMinify: true,
+  basePath: "/",
   reactStrictMode: true,
   output: "export",
   distDir: "build",
